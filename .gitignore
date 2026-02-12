@@ -1,0 +1,10 @@
+# DocFX generated files
+_site/
+
+# .NET tools
+.dotnet/
+.store/
+
+# OS generated files
+.DS_Store
+Thumbs.db

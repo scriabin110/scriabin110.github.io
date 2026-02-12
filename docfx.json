@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../C:\\Users\\106-5180\\OneDrive - JGC Group\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\DPD(3)_EDX\u30FBTagGraph \u0026 RAG\\260212_ExtremeProgramming Setup",
+          "files": [
+            "**/*.csproj"
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "docfx docfx.json --serve",
+      "_appTitle": "docfx docfx.json --serve",
+      "_enableSearch": true,
+      "pdf": true
+    }
+  }
+}
